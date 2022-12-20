@@ -40,7 +40,7 @@ The dataset will be located in `/tmp/xirl/datasets/xmagical`.
 
 **EXPERIMENTS**
 
-The following bash script should have downloaded a saved_models folder with our experiments with their checkpoint files. If there are any issues, please download it directly here: https://drive.google.com/file/d/1MWxzIwvqzXEHsr0R7hbqZchNHM6sZYnR/view
+The previous bash script should have downloaded a saved_models folder with our experiments with their checkpoint files. If there are any issues, please download it directly here: https://drive.google.com/file/d/1MWxzIwvqzXEHsr0R7hbqZchNHM6sZYnR/view
 
 
 ## Code Navigation
@@ -80,10 +80,9 @@ To interact with the agent as well as generate graphs, use the following script:
 ## Acknowledgments
 
 Our work was based off the research below: 
-@inproceedings{zakka2021xirl,
+`@inproceedings{zakka2021xirl,
   author    = {Zakka, Kevin and Zeng, Andy and Florence, Pete and Tompson, Jonathan and Bohg, Jeannette and Dwibedi, Debidatta},
   title     = {XIRL: Cross-embodiment Inverse Reinforcement Learning},
   booktitle = {Proceedings of the 5th Conference on Robot Learning (CoRL)},
   year      = {2021},
-}
-# RL_FINAL
+}`
