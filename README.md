@@ -26,7 +26,7 @@ conda activate xirl
 pip install -r requirements.txt
 ```
 
-## Datasets
+## Datasets + Experiments Download
 
 **X-MAGICAL**
 
@@ -36,7 +36,12 @@ Run the following bash script to download the demonstration dataset for the X-MA
 bash scripts/download_xmagical_dataset.sh
 ```
 
-The dataset will be located in `/tmp/xirl/datasets/xmagical`. You are free to modify the save destination, just make sure you update `config.data.root` in the pretraining config file &mdash; see `base_configs/pretrain.py`.
+The dataset will be located in `/tmp/xirl/datasets/xmagical`.
+
+**EXPERIMENTS**
+
+The following bash script should have downloaded a saved_models folder with our experiments with their checkpoint files. If there are any issues, please download it directly here: https://drive.google.com/file/d/1MWxzIwvqzXEHsr0R7hbqZchNHM6sZYnR/view
+
 
 ## Code Navigation
 
