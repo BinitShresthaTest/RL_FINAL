@@ -27,3 +27,7 @@ mkdir -p /tmp/xirl/datasets/
 cd /tmp/xirl/datasets/
 gdown https://drive.google.com/uc?id=$ID
 unzip xmagical.zip && rm xmagical.zip
+
+cd /tmp/xirl
+gdown https://drive.google.com/file/d/1MWxzIwvqzXEHsr0R7hbqZchNHM6sZYnR
+unzip saved_models.zip && rm saved_models.zip
